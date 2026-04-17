@@ -2091,3 +2091,54 @@ body.get-help-page .hero-buttons .btn:focus {
   color: #4b236e;
 }
 /* ===== END GET HELP HERO BUTTON ===== */
+
+/* ===== MOBILE HEADER SLIM MODE ===== */
+@media (max-width: 768px) {
+
+  header {
+    padding: 6px 0 !important;
+  }
+
+  .brand {
+    justify-content: center !important;
+    gap: 8px !important;
+  }
+
+  .brand img {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .brand-text h1 {
+    font-size: 0.95rem !important;
+    line-height: 1.1 !important;
+  }
+
+  .brand-text p {
+    display: none !important;
+  }
+
+  nav ul {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    gap: 12px !important;
+    padding: 6px 10px !important;
+  }
+
+  nav ul li {
+    flex: 0 0 auto !important;
+  }
+
+  nav ul li a {
+    font-size: 0.85rem !important;
+    white-space: nowrap !important;
+    padding: 6px 4px !important;
+  }
+
+  .hero-clean {
+    padding-top: 18px !important;
+  }
+
+}
+/* ===== END MOBILE HEADER SLIM MODE ===== */
