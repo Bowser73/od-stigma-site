@@ -2061,3 +2061,33 @@ body.get-help-page section {
 }
 /* ===== END MOBILE TOP-OF-PAGE CLEANUP ===== */
 
+
+@media (max-width: 768px) {
+  .brand-text p {
+    display: none !important;
+  }
+}
+
+
+/* ===== GET HELP HERO BUTTON ===== */
+body.get-help-page .hero-buttons {
+  margin-top: 18px;
+}
+
+body.get-help-page .hero-buttons .btn {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #5A2A82;
+  text-decoration: none;
+  font-weight: 700;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+body.get-help-page .hero-buttons .btn:hover,
+body.get-help-page .hero-buttons .btn:focus {
+  background: #efe7f8;
+  color: #4b236e;
+}
+/* ===== END GET HELP HERO BUTTON ===== */
