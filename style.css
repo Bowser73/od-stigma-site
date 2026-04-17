@@ -412,3 +412,44 @@ main.container {
   }
 }
 /* END HERO CLEANUP OVERRIDES */
+
+/* ===== SUPPORT MISSION SECTION ===== */
+.support-mission {
+  background: #f4f7fb;
+  padding: 4rem 0;
+}
+
+.support-mission .section-heading {
+  max-width: 760px;
+  margin-bottom: 2rem;
+}
+
+.support-mission .section-heading h2 {
+  margin-bottom: 0.75rem;
+}
+
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+}
+
+.support-card {
+  background: #ffffff;
+  border-top: 5px solid #9ad243;
+  border-radius: 14px;
+  padding: 1.4rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+.support-card h3 {
+  margin-top: 0;
+  color: #0b3d91;
+}
+
+.support-note {
+  margin-top: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+/* ===== END SUPPORT MISSION SECTION ===== */
