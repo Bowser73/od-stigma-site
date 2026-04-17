@@ -656,3 +656,87 @@ body { border: 12px solid red !important; }
   }
 }
 
+
+/* ===== HERO CLEANUP OVERRIDE ===== */
+
+.hero {
+  background:
+    linear-gradient(rgba(18,18,18,0.68), rgba(18,18,18,0.72)),
+    url("images/hero-banner.jpg") center center / cover no-repeat !important;
+  min-height: 62vh !important;
+  display: flex;
+  align-items: center;
+  padding: 0 !important;
+}
+
+.hero-content {
+  max-width: 720px !important;
+  padding: 3.5rem 0 3rem !important;
+}
+
+.hero .eyebrow {
+  display: none !important;
+}
+
+.hero h2 {
+  font-size: clamp(2.3rem, 5vw, 4.2rem) !important;
+  line-height: 1.08 !important;
+  margin-bottom: 1rem !important;
+  max-width: 12ch;
+}
+
+.hero p {
+  font-size: 1.15rem !important;
+  line-height: 1.65 !important;
+  max-width: 640px !important;
+  margin-bottom: 1.5rem !important;
+  color: rgba(255,255,255,0.92) !important;
+}
+
+.hero-buttons {
+  display: flex !important;
+  gap: 1rem !important;
+  flex-wrap: wrap !important;
+  margin-top: 1rem !important;
+}
+
+.hero .btn-primary {
+  background: #ffffff !important;
+  color: #4b2c7a !important;
+  border: 2px solid #ffffff !important;
+}
+
+.hero .btn-secondary {
+  background: transparent !important;
+  color: #ffffff !important;
+  border: 2px solid rgba(255,255,255,0.85) !important;
+}
+
+.hero .btn-secondary:hover,
+.hero .btn-primary:hover {
+  transform: translateY(-2px);
+}
+
+main > .hero + section {
+  margin-top: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: 56vh !important;
+  }
+
+  .hero-content {
+    padding: 2.5rem 0 !important;
+  }
+
+  .hero h2 {
+    max-width: none;
+  }
+
+  .hero-buttons .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
