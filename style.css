@@ -504,3 +504,34 @@ main.container {
 /* TEST SUPPORT CHANGE */
 .support-mission { border: 8px solid red !important; }
 
+
+/* FORCE SUPPORT SECTION STYLING */
+
+section.support-mission {
+  background: linear-gradient(180deg, #f4f7fb 0%, #e9f1ff 100%) !important;
+  padding: 4rem 0 !important;
+}
+
+.support-mission .support-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
+  gap: 1.5rem !important;
+  margin-top: 2rem !important;
+}
+
+.support-mission .support-card {
+  background: #ffffff !important;
+  border-top: 6px solid #9ad243 !important;
+  border-radius: 16px !important;
+  padding: 1.6rem !important;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12) !important;
+  transition: all 0.25s ease !important;
+}
+
+.support-mission .support-card:hover {
+  transform: translateY(-6px) !important;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.18) !important;
+}
+
+/* END FORCE */
+
