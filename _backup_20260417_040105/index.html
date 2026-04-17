@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Addiction Recovery & Overdose Awareness in Anderson Indiana | OD Awareness Shatter The Stigma</title>
+  <meta name="description" content="OD Awareness Shatter The Stigma Inc provides addiction recovery support, youth and family programs, overdose awareness events, volunteer opportunities, and ways to give back in Anderson, Indiana." />
+  <meta name="keywords" content="addiction recovery help, overdose awareness, recovery support Indiana, Anderson Indiana recovery, youth support, family support, OD Awareness Shatter The Stigma, volunteer, donate" />
+  <style>
+    :root {
+      --purple: #6f42c1;
+      --purple-dark: #4b2c7a;
+      --purple-light: #efe8ff;
+      --black: #121212;
+      --white: #ffffff;
+      --gray: #f5f5f7;
+      --text: #222222;
+      --border: #d8c8ff;
+      --shadow: 0 8px 24px rgba(0,0,0,0.12);
+      --radius: 16px;
+      --max: 1200px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--gray);
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+      border-radius: 12px;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .container {
+      width: min(92%, var(--max));
+      margin: 0 auto;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--purple-dark), var(--purple));
+      color: var(--white);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.18);
+    }
+
+    .nav-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 1rem 0;
+      flex-wrap: wrap;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.9rem;
+    }
+
+    .brand img {
+      width: 58px;
+      height: 58px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid rgba(255,255,255,0.35);
+      background: #fff;
+    }
+
+    .brand-text h1 {
+      font-size: 1.05rem;
+      line-height: 1.2;
+      font-weight: 700;
+    }
+
+    .brand-text p {
+      font-size: 0.85rem;
+      opacity: 0.92;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+    }
+
+    nav a {
+      color: var(--white);
+      padding: 0.65rem 0.9rem;
+      border-radius: 999px;
+      font-size: 0.95rem;
+      transition: 0.25s ease;
+    }
+
+    nav a:hover {
+      background: rgba(255,255,255,0.18);
+    }
+
+    .hero {
+      background:
+        linear-gradient(rgba(18,18,18,0.55), rgba(18,18,18,0.65)),
+        url("images/hero-banner.jpg") center/cover no-repeat;
+      color: var(--white);
+      min-height: 84vh;
+      display: flex;
+      align-items: center;
+    }
+
+    .hero-content {
+      max-width: 760px;
+      padding: 5rem 0;
+    }
+
+    .hero .eyebrow {
+      display: inline-block;
+      background: rgba(255,255,255,0.14);
+      border: 1px solid rgba(255,255,255,0.25);
+      padding: 0.45rem 0.85rem;
+      border-radius: 999px;
+      margin-bottom: 1rem;
+      font-size: 0.92rem;
+    }
+
+    .hero h2 {
+      font-size: clamp(2rem, 5vw, 4rem);
+      line-height: 1.1;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      max-width: 650px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.95rem 1.35rem;
+      border-radius: 999px;
+      font-weight: 700;
+      transition: 0.25s ease;
+      border: 2px solid transparent;
+    }
+
+    .btn-primary {
+      background: var(--white);
+      color: var(--purple-dark);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      border-color: var(--white);
+      color: var(--white);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255,255,255,0.12);
+    }
+
+    section {
+      padding: 4.5rem 0;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 2.2rem;
+    }
+
+    .section-title h3 {
+      font-size: clamp(1.8rem, 3vw, 2.5rem);
+      color: var(--purple-dark);
+      margin-bottom: 0.7rem;
+    }
+
+    .section-title p {
+      max-width: 760px;
+      margin: 0 auto;
+      color: #555;
+    }
+
+    .help-box {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 2rem;
+      align-items: stretch;
+    }
+
+    .card {
+      background: var(--white);
+      border: 2px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 1.6rem;
+    }
+
+    .help-card h4,
+    .form-card h4,
+    .program-card h4,
+    .event-card h4,
+    .impact-card h4,
+    .cta-card h4 {
+      color: var(--purple-dark);
+      margin-bottom: 0.8rem;
+      font-size: 1.35rem;
+    }
+
+    .help-list {
+      margin-top: 1rem;
+      padding-left: 1.2rem;
+    }
+
+    .help-list li {
+      margin-bottom: 0.6rem;
+    }
+
+    form {
+      display: grid;
+      gap: 0.9rem;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 0.9rem 1rem;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-family: inherit;
+    }
+
+    textarea {
+      min-height: 130px;
+      resize: vertical;
+    }
+
+    .note {
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 0.5rem;
+    }
+
+    .program-grid,
+    .event-grid,
+    .impact-grid,
+    .cta-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.4rem;
+    }
+
+    .program-card,
+    .event-card,
+    .impact-card,
+    .cta-card {
+      overflow: hidden;
+    }
+
+    .event-card img,
+    .impact-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      border: 2px solid var(--border);
+    }
+
+    .event-meta {
+      font-size: 0.95rem;
+      color: #666;
+      margin: 0.5rem 0 0.8rem;
+    }
+
+    .quote-band {
+      background: linear-gradient(135deg, var(--purple-dark), var(--purple));
+      color: var(--white);
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+
+    .quote-band blockquote {
+      max-width: 900px;
+      margin: 0 auto;
+      font-size: clamp(1.4rem, 2.6vw, 2rem);
+      font-weight: 700;
+      line-height: 1.4;
+    }
+
+    .quote-band p {
+      margin-top: 1rem;
+      opacity: 0.92;
+    }
+
+    .footer {
+      background: var(--black);
+      color: var(--white);
+      padding: 2.5rem 0;
+    }
+
+    .footer-wrap {
+      display: flex;
+      justify-content: space-between;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .footer a {
+      color: #ddd;
+    }
+
+    .footer a:hover {
+      color: #fff;
+    }
+
+    .mini-links {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 960px) {
+      .help-box,
+      .program-grid,
+      .event-grid,
+      .impact-grid,
+      .cta-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        min-height: auto;
+      }
+
+      .hero-content {
+        padding: 4rem 0;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .brand {
+        align-items: flex-start;
+      }
+
+      .brand-text h1 {
+        font-size: 0.98rem;
+      }
+
+      nav ul {
+        gap: 0.3rem;
+      }
+
+      nav a {
+        padding: 0.55rem 0.7rem;
+        font-size: 0.88rem;
+      }
+
+      .hero p {
+        font-size: 1rem;
+      }
+
+      .btn {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container nav-wrap">
+      <div class="brand">
+        <img src="images/logo.jpg" alt="OD Awareness Shatter The Stigma Inc logo" />
+        <div class="brand-text">
+          <h1>OD Awareness Shatter The Stigma Inc</h1>
+          <p>Recovery. Youth Support. Community. Hope.</p>
+        </div>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="get-help.html">Get Help</a></li>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#impact">Community</a></li>
+          <li><a href="#involved">Get Involved</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <span class="eyebrow">Shattering the stigma around addiction and recovery</span>
+          <h2>Real help. Right here in Anderson.</h2>
+          <p>
+            Support, recovery resources, and community help for individuals and families in Anderson, Indiana.
+          </p>
+          
+<p style="margin-top: 1.25rem;">
+  Providing addiction recovery support, overdose awareness, youth programs, and community events in Anderson, Indiana and surrounding areas.
+</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="help">
+      <div class="container">
+        <div class="section-title">
+          <h3>If you need help, start here</h3>
+          <p>
+            If you or someone you love is struggling with addiction, feeling lost, or looking for support,
+            you are not alone. There is a way forward, and this is a place to begin.
+          </p>
+        </div>
+
+        <div class="help-box">
+          <div class="card help-card">
+            <h4>You are more than your past mistakes</h4>
+            <p>
+              Our mission is to offer encouragement, awareness, connection, and support for people affected by addiction,
+              overdose, trauma, and family struggles. We believe recovery is possible and community matters.
+            </p>
+            <ul class="help-list">
+              <li>Community recovery events and outreach</li>
+              <li>Youth-centered support and awareness programs</li>
+              <li>Family-focused programs and partnerships</li>
+              <li>Encouragement rooted in love, hope, strength, and forgiveness</li>
+            </ul>
+            <p class="note">
+              For urgent medical emergencies, call 911 immediately.
+            </p>
+          </div>
+
+          <div class="card form-card">
+            <h4>Reach out for support</h4>
+            <form action="#" method="post">
+              <input type="text" name="name" placeholder="Your name" />
+              <input type="email" name="email" placeholder="Your email" />
+              <input type="tel" name="phone" placeholder="Phone number" />
+              <textarea name="message" placeholder="Tell us how we can help"></textarea>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <p class="note">
+              This form is a visual preview for now. Later, we can connect it to email, forms, or a secure contact system.
+            </p>
+<div class="find-help" style="margin-top: 1.5rem;">
+  <h4>Find Help Near You</h4>
+  <p>
+    If you are searching for addiction recovery help, overdose support, or youth programs in Anderson, Indiana, we are here to help.
+    Our community provides real support, real events, and real people ready to walk with you.
+  </p>
+</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="programs">
+      <div class="container">
+        <div class="section-title">
+          <h3>Programs and support</h3>
+          <p>
+            From recovery support to youth outreach and family-strengthening programs, our goal is to help people heal,
+            grow, and reconnect with purpose.
+          </p>
+        </div>
+
+        <div class="program-grid">
+          <div class="card program-card">
+            <h4>Recovery Support</h4>
+            <p>
+              We help create spaces for people to come together, hear real stories, share encouragement,
+              and find support on the journey out of addiction and into recovery.
+            </p>
+          </div>
+
+          <div class="card program-card">
+            <h4>Youth Awareness & Guidance</h4>
+            <p>
+              Through events and community outreach, we aim to reach young people early, speak truth into hard situations,
+              and offer a better path before bad choices become lifelong chains.
+            </p>
+          </div>
+
+          <div class="card program-card">
+            <h4>Family & Community Support</h4>
+            <p>
+              Families matter. Strong homes and healthy relationships can change outcomes. We support family-centered efforts,
+              partnerships, and programs that help build stronger foundations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="events">
+      <div class="container">
+        <div class="section-title">
+          <h3>Events that bring people together</h3>
+          <p>
+            Our events raise awareness, create connection, support recovery, and keep the message moving through the community.
+          </p>
+        </div>
+
+        <div class="event-grid">
+          <article class="card event-card">
+            <img src="images/life-recovery-group.jpg" alt="Life Recovery Group flyer" />
+            <h4>Life Recovery Group</h4>
+            <p class="event-meta">Wednesdays | 6–7 PM | Anderson, Indiana</p>
+            <p>
+              A weekly recovery-focused gathering centered on encouragement, healing, and life change.
+            </p>
+          </article>
+
+          <article class="card event-card">
+            <img src="images/recovery-basketball.jpg" alt="Recovery basketball event flyer" />
+            <h4>Recovery Basketball Event</h4>
+            <p class="event-meta">Community fundraiser and outreach event</p>
+            <p>
+              Bringing people together through sports, support, and visibility while giving back to the local recovery community.
+            </p>
+          </article>
+
+          <article class="card event-card">
+            <img src="images/strengthening-families.jpg" alt="Strengthening Families Program flyer" />
+            <h4>Strengthening Families Program</h4>
+            <p class="event-meta">Parent and youth support program</p>
+            <p>
+              Helping families build stronger communication, healthier relationships, and tools to prevent harmful patterns.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="impact">
+      <div class="container">
+        <div class="section-title">
+          <h3>Community impact</h3>
+          <p>
+            This work is not just about awareness. It is about showing up, reaching people, remembering those we have lost,
+            and helping create a future with more support and less stigma.
+          </p>
+        </div>
+
+        <div class="impact-grid">
+          <article class="card impact-card">
+            <img src="images/balloon-release.jpg" alt="Purple balloon release event" />
+            <h4>Remembering lives lost</h4>
+            <p>
+              Public moments of remembrance help families grieve, communities unite, and the mission stay visible.
+            </p>
+          </article>
+
+          <article class="card impact-card">
+            <img src="images/community-event.jpg" alt="Community members at outreach event" />
+            <h4>Showing up in the community</h4>
+            <p>
+              Outreach events, booths, gatherings, and local partnerships help us meet people where they are.
+            </p>
+          </article>
+
+          <article class="card impact-card">
+            <img src="images/awareness-banner.jpg" alt="OD Awareness Shatter The Stigma banner and team" />
+            <h4>Shattering the stigma</h4>
+            <p>
+              By staying visible and active, we help change the conversation around addiction, overdose, healing, and hope.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-band">
+      <div class="container">
+        <blockquote>
+          “There’s a way out. You are more than the choices you’ve made, more than your past mistakes, and more than the problems you’ve faced.”
+        </blockquote>
+        <p>Love. Courage. Strength. Hope. Forgiveness. Mercy.</p>
+      </div>
+    </section>
+
+    <section id="involved">
+      <div class="container">
+        <div class="section-title">
+          <h3>Get involved</h3>
+          <p>
+            Whether you want to volunteer, sponsor, partner, or support the mission financially,
+            there is room to make a real difference.
+          </p>
+        </div>
+
+        <div class="cta-grid">
+          <div class="card cta-card">
+            <h4>Volunteer</h4>
+            <p>
+              Help at events, outreach efforts, setup, community programs, and support activities that bring people together.
+            </p>
+            <br />
+            <a href="#" class="btn btn-primary">Become a Volunteer</a>
+          </div>
+
+          <div class="card cta-card">
+            <h4>Donate</h4>
+            <p>
+              Support awareness efforts, recovery outreach, youth events, family programs, and future growth across the community.
+            </p>
+            <br />
+            <a href="#" class="btn btn-primary">Support the Mission</a>
+          </div>
+
+          <div class="card cta-card">
+            <h4>Partner With Us</h4>
+            <p>
+              Churches, sponsors, community groups, treatment organizations, and local businesses can all help move this mission forward.
+            </p>
+            <br />
+            <a href="#" class="btn btn-primary">Start a Partnership</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-wrap">
+      <div>
+        <h4>OD Awareness Shatter The Stigma Inc</h4>
+        <p>Anderson, Indiana</p>
+        <p>Recovery support, youth outreach, family support, and community awareness.</p>
+      </div>
+
+      <div class="mini-links">
+        <a href="get-help.html">Get Help</a>
+        <a href="#programs">Programs</a>
+        <a href="#events">Events</a>
+        <a href="#involved">Get Involved</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
