@@ -1,0 +1,607 @@
+
+/* ===== Get Help page styles ===== */
+.site-header {
+  background: #0b3d91;
+  color: #ffffff;
+  padding: 2rem 0;
+}
+
+.site-header h1,
+.site-header .subheading {
+  color: #ffffff;
+  margin: 0 0 1rem 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.main-nav a {
+  display: inline-block;
+  background: #8dc63f;
+  color: #111111;
+  text-decoration: none;
+  padding: 0.65rem 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.main-nav a:hover,
+.main-nav a:focus {
+  background: #a6d85a;
+}
+
+main.container {
+  padding: 2rem 0 3rem 0;
+}
+
+.content-box {
+  background: #ffffff;
+  border-left: 6px solid #0b3d91;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.content-box h2 {
+  margin-top: 0;
+  color: #0b3d91;
+}
+
+.content-box h3 {
+  margin-bottom: 0.4rem;
+  color: #222222;
+}
+
+.emergency-box {
+  border-left-color: #c62828;
+  background: #fff4f4;
+}
+
+.callout-box {
+  border-left-color: #8dc63f;
+  background: #f7fff0;
+}
+
+.resource-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.resource-item {
+  background: #f5f8fb;
+  border: 1px solid #d7e0ea;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.resource-item h3 {
+  margin-top: 0;
+}
+
+.resource-item a,
+.content-box a {
+  color: #0b3d91;
+  font-weight: bold;
+}
+
+.site-footer {
+  background: #111111;
+  color: #ffffff;
+  padding: 1.5rem 0;
+  margin-top: 2rem;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .main-nav a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .content-box {
+    padding: 1rem;
+  }
+}
+/* ===== End Get Help page styles ===== */
+
+/* ===== Get Help page styles ===== */
+.site-header {
+  background: #0b3d91;
+  color: #ffffff;
+  padding: 2rem 0;
+}
+
+.site-header h1,
+.site-header .subheading {
+  color: #ffffff;
+  margin: 0 0 1rem 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.main-nav a {
+  display: inline-block;
+  background: #8dc63f;
+  color: #111111;
+  text-decoration: none;
+  padding: 0.65rem 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.main-nav a:hover,
+.main-nav a:focus {
+  background: #a6d85a;
+}
+
+main.container {
+  padding: 2rem 0 3rem 0;
+}
+
+.content-box {
+  background: #ffffff;
+  border-left: 6px solid #0b3d91;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.content-box h2 {
+  margin-top: 0;
+  color: #0b3d91;
+}
+
+.content-box h3 {
+  margin-bottom: 0.4rem;
+  color: #222222;
+}
+
+.emergency-box {
+  border-left-color: #c62828;
+  background: #fff4f4;
+}
+
+.callout-box {
+  border-left-color: #8dc63f;
+  background: #f7fff0;
+}
+
+.resource-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.resource-item {
+  background: #f5f8fb;
+  border: 1px solid #d7e0ea;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.resource-item h3 {
+  margin-top: 0;
+}
+
+.resource-item a,
+.content-box a {
+  color: #0b3d91;
+  font-weight: bold;
+}
+
+.site-footer {
+  background: #111111;
+  color: #ffffff;
+  padding: 1.5rem 0;
+  margin-top: 2rem;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .main-nav a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .content-box {
+    padding: 1rem;
+  }
+}
+/* ===== End Get Help page styles ===== */
+/* ===== Get Help page styles ===== */
+.site-header {
+  background: #0b3d91;
+  color: #ffffff;
+  padding: 2rem 0;
+}
+
+.site-header h1,
+.site-header .subheading {
+  color: #ffffff;
+  margin: 0 0 1rem 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.main-nav a {
+  display: inline-block;
+  background: #8dc63f;
+  color: #111111;
+  text-decoration: none;
+  padding: 0.65rem 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+main.container {
+  padding: 2rem 0 3rem 0;
+}
+
+.content-box {
+  background: #ffffff;
+  border-left: 6px solid #0b3d91;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.emergency-box {
+  border-left-color: #c62828;
+  background: #fff4f4;
+}
+
+.callout-box {
+  border-left-color: #8dc63f;
+  background: #f7fff0;
+}
+/* ===== End Get Help page styles ===== */
+/* ===== Get Help page styles ===== */
+.site-header {
+  background: #0b3d91;
+  color: #ffffff;
+  padding: 2rem 0;
+}
+
+.site-header h1,
+.site-header .subheading {
+  color: #ffffff;
+  margin: 0 0 1rem 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.main-nav a {
+  display: inline-block;
+  background: #8dc63f;
+  color: #111111;
+  text-decoration: none;
+  padding: 0.65rem 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+main.container {
+  padding: 2rem 0 3rem 0;
+}
+
+.content-box {
+  background: #ffffff;
+  border-left: 6px solid #0b3d91;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.emergency-box {
+  border-left-color: #c62828;
+  background: #fff4f4;
+}
+
+.callout-box {
+  border-left-color: #8dc63f;
+  background: #f7fff0;
+}
+/* ===== End Get Help page styles ===== */
+
+/* HERO CLEANUP OVERRIDES */
+.hero {
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(17, 24, 39, 0.62) 0%, rgba(17, 24, 39, 0.38) 42%, rgba(17, 24, 39, 0.12) 100%);
+  pointer-events: none;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 760px;
+}
+
+.hero-content h2 {
+  max-width: 760px;
+  line-height: 1.05;
+}
+
+.hero-content p {
+  max-width: 640px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.btn-primary {
+  background: #9ad243 !important;
+  color: #111111 !important;
+  border: none !important;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.18);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background: #a8dc53 !important;
+}
+
+@media (max-width: 768px) {
+  .hero-content h2 {
+    font-size: clamp(2.4rem, 8vw, 4.2rem);
+  }
+
+  .hero-content p {
+    max-width: 100%;
+  }
+}
+/* END HERO CLEANUP OVERRIDES */
+
+/* ===== SUPPORT MISSION SECTION ===== */
+.support-mission {
+  background: #f4f7fb;
+  padding: 4rem 0;
+}
+
+.support-mission .section-heading {
+  max-width: 760px;
+  margin-bottom: 2rem;
+}
+
+.support-mission .section-heading h2 {
+  margin-bottom: 0.75rem;
+}
+
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+}
+
+.support-card {
+  background: #ffffff;
+  border-top: 5px solid #9ad243;
+  border-radius: 14px;
+  padding: 1.4rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+.support-card h3 {
+  margin-top: 0;
+  color: #0b3d91;
+}
+
+.support-note {
+  margin-top: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+/* ===== END SUPPORT MISSION SECTION ===== */
+
+/* ===== SUPPORT SECTION UPGRADE ===== */
+
+.support-mission {
+  background: linear-gradient(180deg, #f4f7fb 0%, #e9f1ff 100%);
+  padding: 4rem 0;
+}
+
+.support-mission h2 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #0b3d91;
+}
+
+.support-grid {
+  margin-top: 2rem;
+}
+
+.support-card {
+  background: #ffffff;
+  border-top: 6px solid #9ad243;
+  border-radius: 16px;
+  padding: 1.6rem;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+  transition: all 0.25s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.support-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 4px;
+  background: #0b3d91;
+  opacity: 0.7;
+}
+
+.support-card:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 20px 45px rgba(0,0,0,0.18);
+}
+
+/* ===== END SUPPORT SECTION UPGRADE ===== */
+
+
+/* TEST SUPPORT CHANGE */
+.support-mission { border: 8px solid red !important; }
+
+
+/* FORCE SUPPORT SECTION STYLING */
+
+section.support-mission {
+  background: linear-gradient(180deg, #f4f7fb 0%, #e9f1ff 100%) !important;
+  padding: 4rem 0 !important;
+}
+
+.support-mission .support-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
+  gap: 1.5rem !important;
+  margin-top: 2rem !important;
+}
+
+.support-mission .support-card {
+  background: #ffffff !important;
+  border-top: 6px solid #9ad243 !important;
+  border-radius: 16px !important;
+  padding: 1.6rem !important;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12) !important;
+  transition: all 0.25s ease !important;
+}
+
+.support-mission .support-card:hover {
+  transform: translateY(-6px) !important;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.18) !important;
+}
+
+/* END FORCE */
+
+
+body { border: 12px solid red !important; }
+
+.support-mission {
+  background: #f4f7fb;
+  padding: 4rem 0;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-heading .eyebrow {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  padding: 0.45rem 0.85rem;
+  border-radius: 999px;
+  background: #efe8ff;
+  color: #4b2c7a;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.section-heading h2 {
+  color: #4b2c7a;
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  margin-bottom: 0.8rem;
+}
+
+.section-heading p {
+  max-width: 760px;
+  margin: 0 auto;
+  color: #555;
+}
+
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.4rem;
+  margin-top: 2rem;
+}
+
+.support-card {
+  background: #ffffff;
+  border: 2px solid #d8c8ff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  padding: 1.6rem;
+}
+
+.support-card h3 {
+  color: #4b2c7a;
+  margin-bottom: 0.8rem;
+}
+
+.support-note {
+  margin-top: 1.5rem;
+  text-align: center;
+  color: #555;
+  font-weight: 600;
+}
+
+@media (max-width: 960px) {
+  .support-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
