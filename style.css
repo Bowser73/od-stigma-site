@@ -453,3 +453,50 @@ main.container {
   color: #1f2937;
 }
 /* ===== END SUPPORT MISSION SECTION ===== */
+
+/* ===== SUPPORT SECTION UPGRADE ===== */
+
+.support-mission {
+  background: linear-gradient(180deg, #f4f7fb 0%, #e9f1ff 100%);
+  padding: 4rem 0;
+}
+
+.support-mission h2 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #0b3d91;
+}
+
+.support-grid {
+  margin-top: 2rem;
+}
+
+.support-card {
+  background: #ffffff;
+  border-top: 6px solid #9ad243;
+  border-radius: 16px;
+  padding: 1.6rem;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+  transition: all 0.25s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.support-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 4px;
+  background: #0b3d91;
+  opacity: 0.7;
+}
+
+.support-card:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 20px 45px rgba(0,0,0,0.18);
+}
+
+/* ===== END SUPPORT SECTION UPGRADE ===== */
+
