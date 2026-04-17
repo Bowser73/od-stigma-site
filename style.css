@@ -1650,3 +1650,297 @@ footer a {
   background: #f3edf9;
   padding: 3rem 0;
 }
+
+/* ===== GET INVOLVED FORM SECTION ===== */
+.get-involved-section {
+  padding: 72px 0;
+  background: #f7f3fb;
+}
+
+.get-involved-section .section-heading {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.get-involved-section .section-heading .eyebrow {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #5A2A82;
+}
+
+.get-involved-section .section-heading h2 {
+  margin: 0 0 14px;
+  color: #1C1C1C;
+}
+
+.get-involved-section .section-heading p {
+  max-width: 780px;
+  margin: 0 auto;
+  line-height: 1.7;
+  color: #333333;
+}
+
+.involved-grid {
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 28px;
+  align-items: start;
+  margin-top: 2rem;
+}
+
+.involved-intro-card,
+.involved-form-card {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(90, 42, 130, 0.14);
+}
+
+.involved-intro-card {
+  padding: 28px;
+}
+
+.involved-intro-card h3 {
+  margin-top: 0;
+  margin-bottom: 14px;
+  color: #5A2A82;
+}
+
+.involved-intro-card p {
+  line-height: 1.7;
+  color: #333333;
+}
+
+.involved-list {
+  margin: 20px 0;
+  padding-left: 20px;
+  color: #333333;
+  line-height: 1.7;
+}
+
+.involved-list li + li {
+  margin-top: 8px;
+}
+
+.involved-note {
+  margin-top: 18px;
+  padding: 14px 16px;
+  background: #f3ebf8;
+  border-left: 4px solid #5A2A82;
+  border-radius: 12px;
+  color: #333333;
+  line-height: 1.6;
+}
+
+.involved-form-card {
+  padding: 28px;
+}
+
+.support-form {
+  display: block;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.form-group {
+  display: block;
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 700;
+  color: #1C1C1C;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 14px 14px;
+  border: 1px solid rgba(28, 28, 28, 0.15);
+  border-radius: 12px;
+  font-size: 1rem;
+  color: #1C1C1C;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #5A2A82;
+  box-shadow: 0 0 0 3px rgba(90, 42, 130, 0.12);
+}
+
+.form-actions {
+  margin-top: 8px;
+}
+
+.form-actions .btn {
+  display: inline-block;
+  padding: 14px 22px;
+  border: none;
+  border-radius: 999px;
+  background: #5A2A82;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.form-actions .btn:hover,
+.form-actions .btn:focus {
+  background: #4b236e;
+}
+
+.form-helper {
+  margin-top: 14px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #555555;
+}
+
+@media (max-width: 900px) {
+  .involved-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}
+/* ===== END GET INVOLVED FORM SECTION ===== */
+
+/* ===== GET HELP PAGE QUICK ALIGN ===== */
+body.get-help-page header {
+  background: #5A2A82 !important;
+  color: #ffffff !important;
+}
+
+body.get-help-page h1,
+body.get-help-page h2,
+body.get-help-page h3 {
+  color: #5A2A82 !important;
+}
+
+body.get-help-page a {
+  color: #5A2A82;
+}
+
+body.get-help-page a:hover {
+  color: #CFA9E0;
+}
+
+body.get-help-page .container {
+  max-width: 1100px;
+}
+/* ===== END GET HELP ALIGN ===== */
+
+/* ===== GET HELP PAGE REDESIGN ===== */
+body.get-help-page {
+  background: #f4f5f7;
+  color: #1C1C1C;
+}
+
+body.get-help-page .hero,
+body.get-help-page .page-hero,
+body.get-help-page .top-section,
+body.get-help-page .intro-section {
+  background: linear-gradient(135deg, #2d1455 0%, #5A2A82 100%) !important;
+  color: #ffffff !important;
+  padding: 48px 0 36px !important;
+  min-height: auto !important;
+}
+
+body.get-help-page .hero .container,
+body.get-help-page .page-hero .container,
+body.get-help-page .top-section .container,
+body.get-help-page .intro-section .container {
+  max-width: 1100px;
+}
+
+body.get-help-page h1,
+body.get-help-page .hero h1,
+body.get-help-page .page-hero h1 {
+  color: #ffffff !important;
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 14px !important;
+}
+
+body.get-help-page .hero p,
+body.get-help-page .page-hero p,
+body.get-help-page .top-section p,
+body.get-help-page .intro-section p {
+  color: #f2ebff !important;
+  max-width: 800px;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+body.get-help-page a[href="index.html"],
+body.get-help-page a[href="./index.html"],
+body.get-help-page a[href="/index.html"],
+body.get-help-page a[href="../index.html"],
+body.get-help-page a[href="#"],
+body.get-help-page .home-button {
+  display: inline-block;
+  margin-top: 18px;
+  background: #ffffff !important;
+  color: #5A2A82 !important;
+  border: none !important;
+  border-radius: 999px !important;
+  padding: 12px 20px !important;
+  text-decoration: none !important;
+  font-weight: 700 !important;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+body.get-help-page a[href="index.html"]:hover,
+body.get-help-page a[href="./index.html"]:hover,
+body.get-help-page a[href="/index.html"]:hover,
+body.get-help-page a[href="../index.html"]:hover,
+body.get-help-page .home-button:hover {
+  background: #efe7f8 !important;
+  color: #4b236e !important;
+}
+
+body.get-help-page .emergency-box,
+body.get-help-page .card,
+body.get-help-page .resource-card,
+body.get-help-page .help-card,
+body.get-help-page .content-box {
+  background: #ffffff !important;
+  border-radius: 18px !important;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.08) !important;
+  border: 1px solid rgba(90, 42, 130, 0.14) !important;
+}
+
+body.get-help-page .emergency-box {
+  border-left: 6px solid #c62828 !important;
+}
+
+body.get-help-page h2,
+body.get-help-page h3 {
+  color: #5A2A82 !important;
+}
+
+body.get-help-page .container {
+  max-width: 1100px;
+}
+
+body.get-help-page section {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+/* ===== END GET HELP PAGE REDESIGN ===== */

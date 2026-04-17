@@ -722,46 +722,89 @@
   </div>
 </section>
 
-    <section id="involved">
-      <div class="container">
-        <div class="section-title">
-          <h3>Get involved</h3>
-          <p>
-            Whether you want to volunteer, sponsor, partner, or support the mission financially,
-            there is room to make a real difference.
-          </p>
-        </div>
+    <section id="involved" class="get-involved-section">
+  <div class="container">
+    <div class="section-heading">
+      <span class="eyebrow">Get involved</span>
+      <h2>Take the next step with the mission</h2>
+      <p>
+        Whether you want to volunteer, sponsor an event, support the mission financially,
+        explore partnership opportunities, or start a board-level conversation, this is the place to begin.
+      </p>
+    </div>
 
-        <div class="cta-grid">
-          <div class="card cta-card">
-            <h4>Volunteer</h4>
-            <p>
-              Help at events, outreach efforts, setup, community programs, and support activities that bring people together.
-            </p>
-            <br />
-            <a href="#" class="btn btn-primary">Become a Volunteer</a>
-          </div>
+    <div class="involved-grid">
+      <div class="involved-intro-card">
+        <h3>Why this matters</h3>
+        <p>
+          OD Awareness Shatter The Stigma Inc is already doing visible work in the community.
+          This form creates a direct path for people who want to help strengthen events, outreach,
+          family support, awareness efforts, and future growth.
+        </p>
 
-          <div class="card cta-card">
-            <h4>Donate</h4>
-            <p>
-              Support awareness efforts, recovery outreach, youth events, family programs, and future growth across the community.
-            </p>
-            <br />
-            <a href="#" class="btn btn-primary">Support the Mission</a>
-          </div>
+        <ul class="involved-list">
+          <li>Volunteer at community events and outreach efforts</li>
+          <li>Sponsor programs, awareness events, or family activities</li>
+          <li>Partner as a business, church, nonprofit, or community group</li>
+          <li>Support funding conversations and long-term growth</li>
+        </ul>
 
-          <div class="card cta-card">
-            <h4>Partner With Us</h4>
-            <p>
-              Churches, sponsors, community groups, treatment organizations, and local businesses can all help move this mission forward.
-            </p>
-            <br />
-            <a href="#" class="btn btn-primary">Start a Partnership</a>
-          </div>
+        <div class="involved-note">
+          <strong>Temporary live step:</strong> This form is being added as part of the organization’s
+          working support path and can be connected to email or a full form system as the site develops.
         </div>
       </div>
-    </section>
+
+      <div class="involved-form-card">
+        <form class="support-form" action="#" method="post">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="full-name">Full Name</label>
+              <input type="text" id="full-name" name="full_name" placeholder="Your full name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email-address">Email Address</label>
+              <input type="email" id="email-address" name="email" placeholder="you@example.com" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone-number">Phone Number</label>
+              <input type="tel" id="phone-number" name="phone" placeholder="Optional">
+            </div>
+
+            <div class="form-group">
+              <label for="interest-type">I’m interested in</label>
+              <select id="interest-type" name="interest_type" required>
+                <option value="">Select one</option>
+                <option value="volunteer">Volunteering</option>
+                <option value="sponsorship">Sponsorship</option>
+                <option value="partnership">Partnership</option>
+                <option value="donation">Donating / Financial Support</option>
+                <option value="board">Board / Leadership Conversation</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Tell us how you’d like to support the mission."></textarea>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Submit Interest</button>
+            <p class="form-helper">
+              This section is designed as the organization’s active entry point for volunteers, sponsors,
+              donors, and partners. Final form delivery can be connected in the next step.
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
   </main>
 
   <footer class="footer">
@@ -783,6 +826,8 @@
 
 </body>
 </html>
+
+
 
 
 
