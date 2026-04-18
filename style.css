@@ -2218,3 +2218,52 @@ body.get-help-page .hero-buttons .btn:focus {
     padding: 4px 2px !important;
   }
 }
+
+@media (max-width: 768px) {
+
+  header {
+    padding: 6px 0 !important;
+  }
+
+  .nav-wrap {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 4px !important;
+  }
+
+  .brand {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 8px !important;
+  }
+
+  .brand img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .brand-text h1 {
+    font-size: 0.75rem !important;
+    margin: 0 !important;
+  }
+
+  .brand-text p {
+    display: none !important; /* THIS kills extra height */
+  }
+
+  nav ul {
+    display: grid !important;
+    grid-template-columns: repeat(2, auto) !important;
+    gap: 6px 20px !important;
+    justify-content: center !important;
+    margin-top: 4px !important;
+  }
+
+  nav ul li a {
+    font-size: 0.75rem !important;
+    padding: 2px 0 !important;
+  }
+
+}
