@@ -2176,3 +2176,45 @@ body.get-help-page .hero-buttons .btn:focus {
   }
 
 }
+
+@media (max-width: 768px) {
+  header {
+    padding: 8px 0 !important;
+  }
+
+  .nav-wrap {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 6px !important;
+  }
+
+  .brand img {
+    width: 34px !important;
+    height: 34px !important;
+  }
+
+  .brand-text h1 {
+    font-size: 0.85rem !important;
+    line-height: 1.05 !important;
+    text-align: center !important;
+  }
+
+  .brand-text p {
+    font-size: 0.7rem !important;
+    text-align: center !important;
+  }
+
+  nav ul {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 6px 12px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  nav ul li a {
+    font-size: 0.8rem !important;
+    padding: 4px 2px !important;
+  }
+}
