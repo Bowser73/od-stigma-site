@@ -2142,37 +2142,3 @@ body.get-help-page .hero-buttons .btn:focus {
 
 }
 /* ===== END MOBILE HEADER SLIM MODE ===== */
-
-/* ===== FORCE MOBILE HEADER FIX ===== */
-@media (max-width: 768px) {
-
-  header {
-    padding: 4px 0 !important;
-  }
-
-  .brand-text p {
-    display: none !important;
-  }
-
-  nav ul {
-    display: flex !important;
-    flex-wrap: nowrap !important;
-    overflow-x: auto !important;
-    gap: 10px !important;
-    padding: 4px 8px !important;
-  }
-
-  nav ul li a {
-    font-size: 0.8rem !important;
-    white-space: nowrap !important;
-  }
-
-  .brand img {
-    width: 38px !important;
-  }
-
-  .brand-text h1 {
-    font-size: 0.9rem !important;
-  }
-
-}
